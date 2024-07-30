@@ -5,13 +5,13 @@ import joblib
 import cv2
 
 # Display title
-image_path = (r"C:\Users\HP\OneDrive\Desktop\inno12.png") # Replace with your actual PNG image file path
+image_path = (r"inno12.png") # Replace with your actual PNG image file path
 
 # Display the PNG image
 st.image(image_path)
 
 # Load the pre-trained model
-model_path = "D:\DOG BREED\dataset\dbreed.pkl"
+model_path = "dbreed.pkl"
 model = joblib.load(model_path)
 
 # Function to preprocess the image
