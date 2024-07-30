@@ -5,7 +5,7 @@ import joblib
 import cv2
 
 # Display title
-image_path = (r"inno12.png") # Replace with your actual PNG image file path
+image_path = (r"inno_black.png") # Replace with your actual PNG image file path
 
 # Display the PNG image
 st.image(image_path)
