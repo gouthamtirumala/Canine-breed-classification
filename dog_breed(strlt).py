@@ -38,7 +38,7 @@ def preprocess_image(image):
 
 # Streamlit app
 def main():
-    st.title('Dog Breed Classification App')
+    st.title('CANINE BREED CLASSIFIER')
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])  # Adjust type as per your image types
 
